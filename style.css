@@ -1,5 +1,5 @@
 body{
-    background-color:lightblue;
+    background-color: Purple;
     color: yellow;
     font-size: 15px;
     letter-spacing: 2px;
@@ -24,4 +24,3 @@ img{
 .Links{
     text-shadow: 2px 2px 2px yellow;
 }
-
