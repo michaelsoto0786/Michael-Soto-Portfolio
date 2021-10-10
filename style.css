@@ -1,5 +1,5 @@
 body{
-    background-color: Purple;
+    background-color: darkslateblue;
     color: yellow;
     font-size: 15px;
     letter-spacing: 2px;
@@ -22,5 +22,10 @@ img{
 }
 
 .Links{
-    text-shadow: 2px 2px 2px yellow;
-}
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+    background: #1C6EA4;
+    }
+    body#tinymce {
+    background: #FFFFFF
+    }
