@@ -53,19 +53,18 @@
 
             <div class="container">
 
+              <form id="myForm">
                 <label for="subject"></label>
                 <textarea id="subject" name="subject" placeholder="Be Nice.." style="height:100px"></textarea>
-            
-                <input type="submit" value="Submit"onclick="myfirstalert();">
-
-                <script>
-
-                  function myfirstalert()
-                  {
-                    alert("Comment Recieved");
-                  }
-                </script>
+                <input type="submit" onclick="myFunction()" value="Submit">
               </form>
+              
+              <script>
+              function myFunction() {
+                document.getElementById("myForm").reset();
+              }
+              </script>
+         
             </div>
             
             <div class="bottom-text">Created By Michael Soto 🎧 🏋</div>
