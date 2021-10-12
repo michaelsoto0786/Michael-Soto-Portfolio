@@ -52,12 +52,19 @@
             <h3>Leave a Comment Below</h3>
 
             <div class="container">
-              <form action="/action_page.php">
 
                 <label for="subject"></label>
                 <textarea id="subject" name="subject" placeholder="Be Nice.." style="height:100px"></textarea>
             
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit"onclick="myfirstalert();">
+
+                <script>
+
+                  function myfirstalert()
+                  {
+                    alert("Comment Recieved");
+                  }
+                </script>
               </form>
             </div>
             
