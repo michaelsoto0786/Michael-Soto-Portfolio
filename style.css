@@ -86,15 +86,14 @@ input[type=text], select, textarea {
   }
   /* media queries below */
   /* phone media query first*/
-  @media screen and (max-width:600px){
+  @media screen and (max-width:900px){
     body{
       background-color: rgba(243, 21, 32, 0.473);
       color: rgb(50, 48, 54);
-      font-size: 6px;
-      letter-spacing: 2px;
+      font-size: 15px;
+      letter-spacing: 1px;
   
     }
-    
       .row {
         display: flex;
         flex-direction: column;
