@@ -3,11 +3,14 @@ body{
     color: rgb(50, 48, 54);
     font-size: 25px;
     letter-spacing: 2px;
-}
+
+    }
+
 img{
     border-radius: 50%;
 }
 .profile-pic{
+  
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -80,4 +83,29 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     padding: 20px;
     flex-basis: 32%;
+  }
+  /* media queries below */
+  /* phone media query first*/
+  @media screen and (max-width:600px){
+    body{
+      background-color: rgba(243, 21, 32, 0.473);
+      color: rgb(50, 48, 54);
+      font-size: 6px;
+      letter-spacing: 2px;
+  
+    }
+    
+      .row {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 20px;
+        flex-basis: 32%;
+
+  }
+}
+  /* desktop query below*/
+  @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-device-pixel-ratio: 1){
+
+
   }
