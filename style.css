@@ -85,7 +85,7 @@ input[type=text], select, textarea {
     flex-basis: 32%;
   }
   /* media queries below */
-  /* phone media query first*/
+  /* tablet media query first*/
   @media screen and (max-width:900px){
     body{
       background-color: rgba(243, 21, 32, 0.473);
