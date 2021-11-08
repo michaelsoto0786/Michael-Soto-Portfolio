@@ -20,7 +20,7 @@
          
           <div class="profile-name">Michael Soto </div>
             <ul>
-               <br>☟about me☟</br>
+               <br>☟about me<☟/br>
                <br></br>
                <div>I am a recent graduate with a Bachelor in Cybersecurity, working on obtaining my Security+ and getting hands on experiences on coding with hopes
                  in learing python and mobile app design. My life time goal is to be a security architect and that involves deep understanding of security and software
@@ -64,39 +64,24 @@
 
             <div class="container">
 
-              <form id="myForm">
-                <label for="subject"></label>
-                <textarea id="subject" name="subject" placeholder="Be Nice.." style="height:100px"></textarea>
-                <input type="submit" onclick="myFunction()" value="Submit">
-                <p><span id="display"> </span></p>
-              </form>
-              
-              <script>
-              function myFunction() {
-                
-              
-                var myForm = document.getElementById("subject");
-                var myFormValue = myForm.value.trim();
-               
-              
-                if (myFormValue.length > 0){
-                  myAlertFunction();
-                  
+              <script language="JavaScript">
+                function showInput() {
+                    document.getElementById('display').innerHTML = 
+                                document.getElementById("user_input").value;
                 }
-                else {
-                  alert("Please type in comment.");
-                }
-                };
-                // myForm.reset();
-              
-              
               </script>
-         <script>
-           // alert function for correctly commenting
-           function myAlertFunction(){
-             alert("Thank you for the comment!");
-           }
-         </script>
+            
+              </head>
+            <body>
+            
+              <form>
+                <label><b>Please enter a comment here --></b></label>
+                <input type="text" name="message" id="user_input">
+              </form>
+            
+              <input type="submit" onclick="showInput();"><br/>
+              <label><bold>Preview your comment☟☟☟☟</bold> </label>
+              <p><span id='display'></span></p>
             </div>
             
             <div class="bottom-text">Created By Michael Soto 🎧 🏋</div>

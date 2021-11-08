@@ -152,6 +152,7 @@ input[type=text], select, textarea {
     padding: 20px;
     flex-basis: 32%;
   }
+
   /* media queries below */
 
   /* tablet media query first*/
