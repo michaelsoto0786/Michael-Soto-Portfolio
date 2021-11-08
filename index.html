@@ -68,17 +68,20 @@
                 <label for="subject"></label>
                 <textarea id="subject" name="subject" placeholder="Be Nice.." style="height:100px"></textarea>
                 <input type="submit" onclick="myFunction()" value="Submit">
+                <p><span id="display"> </span></p>
               </form>
               
               <script>
               function myFunction() {
                 
-                // document.getElementById("myForm").reset();
+              
                 var myForm = document.getElementById("subject");
                 var myFormValue = myForm.value.trim();
+               
+              
                 if (myFormValue.length > 0){
                   myAlertFunction();
-                  myForm.reset();
+                  
                 }
                 else {
                   alert("Please type in comment.");
@@ -89,6 +92,7 @@
               
               </script>
          <script>
+           // alert function for correctly commenting
            function myAlertFunction(){
              alert("Thank you for the comment!");
            }
