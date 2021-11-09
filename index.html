@@ -52,10 +52,11 @@
               </div>
               <div class="column" style="background-color:#ccc;">
                 <h2>Cybersecurity</h2>
+                <div>
                 <p>Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. Also known as information technology (IT) security, 
                   cybersecurity measures are designed to combat threats against networked systems and applications, whether those threats originate from inside or outside of an 
                   organization.Thats sums up what cybersecurity is about, I have educational experiences in using software tools such as Nmap, Wireshark, and Security Onion.
-                  
+                </div>
                 </p>
               </div>
             </div>
@@ -68,13 +69,7 @@
 
             <div class="container">
 
-              <script language="JavaScript">
-                function showInput() {
-                    document.getElementById('display').innerHTML = 
-                                document.getElementById("user_input").value;
-                                  
-                }
-              </script>
+             
             
               </head>
             <body>
@@ -95,5 +90,19 @@
             
             <div class="bottom-text">Created By Michael Soto 🎧 🏋</div>
 </center>
+<script language="JavaScript">
+  function showInput() {
+    if (document.getElementById("user_input").value!= ""){
+      
+    
+      document.getElementById('display').innerHTML = 
+                  document.getElementById("user_input").value;
+                    
+  }
+  else {
+    alert("Please type in your comment.");
+  }
+  }
+</script>
 </body>
 </html>

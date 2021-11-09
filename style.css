@@ -225,4 +225,160 @@ input[type=text], select, textarea {
   width: 300px;
 }
 
+body{
+  background-color: rgba(21, 54, 243, 0.473);
+  color: rgb(50, 48, 54);
+  font-size: 25px;
+  letter-spacing: 2px;
+
+  }
+
+
+img{
+  border-radius: 50%;
+}
+.profile-pic{
+
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  height: auto;
+  max-width: 400px;
+  float:center;
+  }
+
+.secondpic{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-duration: 300s;
+  animation-delay: 5s;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+@keyframes myfirst {
+  from { transform : translateX(0) }
+  17%  { transform : translateX(0%) }
+  20%  { transform : translateX(20%) }
+  37%  { transform : translateX(20%) }
+  40%  { transform : translateX(40%) }
+  57%  { transform : translateX(40%) }
+  60%  { transform : translateX(60%) }
+  77%  { transform : translateX(60%) }
+  80%  { transform : translateX(80%) }
+  97%  { transform : translateX(80%) }
+  to   { transform : translateX(0%) }
+}
+.gympic{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-duration: 300s;
+  animation-delay: 5s;
+  animation: mysecond 5s linear 2s infinite alternate;
+}
+@keyframes mysecond {
+  from { transform : translateX(0) }
+  17%  { transform : translateX(0%) }
+  20%  { transform : translateX(-20%) }
+  37%  { transform : translateX(-20%) }
+  40%  { transform : translateX(-40%) }
+  57%  { transform : translateX(-40%) }
+  60%  { transform : translateX(-60%) }
+  77%  { transform : translateX(-60%) }
+  80%  { transform : translateX(-80%) }
+  97%  { transform : translateX(-80%) }
+  to   { transform : translateX(0%) }
+}
+.squat{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  height: auto;
+  max-width: 400px;
+  float:center;
+}
+.awards{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  height: auto;
+  max-width: 400px;
+  float:center;
+}
+
+.profile-name{
+  width: 200px;
+  height: 100px;
+  font-size: 42px;
+  transition: width 1s;
+}
+.profile-name:hover{
+  width: 600px;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  margin-right: auto;
+  
+}
+
+input[type=submit] {
+  background-color: #007bb5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex
+}
+
+input[type=submit]:hover {
+  background-color: #007bb5;
+}
+
+.fa:hover{
+  opacity: 0.1;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align:center;
+  text-decoration: aqua;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/* Created three columns that floats next to each other */
+.column {
+  float:left;
+  justify-content: space-between;
+  margin-right: 40px;
+
+}
+.row {
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px;
+  flex-basis: 32%;
+}
+
+
   }
