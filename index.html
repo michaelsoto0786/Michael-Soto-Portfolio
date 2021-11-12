@@ -17,7 +17,7 @@
           <img class="profile-pic" src="C:\Users\micha\Project\ProjectPictures\IMG_13561.jpg">
           <img class="gympic" src=C:\Users\micha\Project\ProjectPictures\Resized_Resized_20200914_203530.jpeg>
           <img class="secondpic" src="C:\Users\micha\Project\ProjectPictures\IMG-20210614-WA0049.jpg">
-         
+          
           <div class="profile-name">This is Michael Soto </div>
 
             <ul>
@@ -56,6 +56,20 @@
                 <p>Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. Also known as information technology (IT) security, 
                   cybersecurity measures are designed to combat threats against networked systems and applications, whether those threats originate from inside or outside of an 
                   organization.Thats sums up what cybersecurity is about, I have educational experiences in using software tools such as Nmap, Wireshark, and Security Onion.
+              
+                  <div class="container">
+                    <button class="b1" onClick="myFunction()"></button>
+                    <button class="b2" onClick="myFunction2()"></button>
+                    <button class="b3" onClick="myFunction3()"></button>
+                  </div>
+
+                  <div class="content">
+                    <div id="cyber"><img src="C:\Users\micha\Project\ProjectPictures\wiresharkpic.PNG"/> </div>
+                    <div id="nmap"><img src="C:\Users\micha\Project\ProjectPictures\nmappic.PNG"/> </div>
+                    <div id="onion"><img src="C:\Users\micha\Project\ProjectPictures\securityonionpic.PNG"/> </div>
+                  </div>
+
+            
                 </div>
                 </p>
               </div>
@@ -75,7 +89,6 @@
               <label><bold>Preview your comment 👇👇 </bold> </label>
               <p><span id='display'></span></p>
 
-</script>
 
             <div class="bottom-text">Created By Michael Soto 🎧 🏋</div>
 </center>
@@ -91,7 +104,33 @@
   else {
     alert("Please type in your comment.");
   }
+
   }
 </script>
+
+<script language="JavaScript">
+const myFunction = () => {
+  document.getElementById("cyber").style.display ='block';
+  document.getElementById("nmap").style.display ='none'
+  document.getElementById("onion").style.display ='none'
+}
+
+const myFunction2 = () => {
+  document.getElementById("nmap").style.display ='block'
+  document.getElementById("cyber").style.display ='none'
+  document.getElementById("onion").style.display ='none'
+}
+
+const myFunction3 = () => {
+  document.getElementById("onion").style.display ='block'
+  document.getElementById("cyber").style.display ='none'
+  document.getElementById("nmap").style.display ='none'
+}
+
+
+
+</script>
+
+
 </body>
 </html>
