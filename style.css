@@ -102,7 +102,7 @@ body{
     float:center;
     border-radius: 50%;
   }
-  
+  /* On the profile name when hover, on "This is Michael Soto" it was strench out (just for fun) */
   .profile-name{
     width: 200px;
     height: 100px;
@@ -112,7 +112,7 @@ body{
   .profile-name:hover{
     width: 600px;
   }
-  
+  /* this portion is for my form for comments below */
 input[type=text], select, textarea {
     width: 50%;
     padding: 10px;
@@ -139,7 +139,7 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #007bb5;
   }
-  
+  /* this is for my instagram and linkedin icons when hovered over it would highlight */
 .fa:hover{
     opacity: 0.1;
 }
@@ -229,6 +229,18 @@ input[type=text], select, textarea {
     .profile-name:hover{
       width: 300px;
     }
+  /* under the div content for the three pictures that will be shown when clicked(tablet view) */
+  .content {
+    width:550px;
+    height:auto;
+  }
+   /* I set the pictures to hidden initially on the cybersecurity column(tablet view) */
+   #cyber, #nmap, #onion {
+    display:none;
+    float: left;
+    max-width: 50px;
+  }
+
   }
 /* desktop media query */
 
