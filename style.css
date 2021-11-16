@@ -5,7 +5,7 @@ body{
     letter-spacing: 2px;
 
     }
-
+/* I trimmed my profile pic and centered it */
 .profile-pic{
   
     display:block;
@@ -17,28 +17,26 @@ body{
     float:center;
     border-radius: 50%;
     }
+/* these the buttons on the cybersecurity column */
     .b1, .b2, .b3{
-      background-color: rgb(228, 51, 51);
-      width: 50px;
-      height: 30px;
+      background-color: rgba(51, 187, 228, 0.651);
+      width:100px;
+      height: 50px;
     
     }
-    
+    /* under the div content for the three pictures that will be shown when clicked */
     .content {
       float:left;
       width: 900px;
       height: 900px;
     }
     
-    
+    /* I set the pictures to hidden initially on the cybersecurity column */
     #cyber, #nmap, #onion {
       display: none;
     }
     
-    button {
-      outline: none;
-    }
-
+    /* this is the css animation portion, this is the first picture */
   .secondpic{
     width: 100px;
     height: 100px;
@@ -47,6 +45,7 @@ body{
     animation-delay: 5s;
     animation: myfirst 5s linear 2s infinite alternate;
   }
+
   @keyframes myfirst {
     from { transform : translateX(0) }
     17%  { transform : translateX(0%) }
@@ -60,6 +59,7 @@ body{
     97%  { transform : translateX(80%) }
     to   { transform : translateX(0%) }
   }
+  /* this is the css animation portion, this is the second picture */
   .gympic{
     width: 100px;
     height: 100px;
@@ -68,6 +68,7 @@ body{
     animation-delay: 5s;
     animation: mysecond 5s linear 2s infinite alternate;
   }
+  /* I made the keyframes going the opposite position from the first picture to mirror*/
   @keyframes mysecond {
     from { transform : translateX(0) }
     17%  { transform : translateX(0%) }
