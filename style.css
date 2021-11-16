@@ -234,12 +234,23 @@ input[type=text], select, textarea {
     width:550px;
     height:auto;
   }
-   /* I set the pictures to hidden initially on the cybersecurity column(tablet view) */
+   /* I set the pictures to be hidden  on the cybersecurity column(tablet view) */
    #cyber, #nmap, #onion {
     display:none;
-    float: left;
-    max-width: 50px;
+    
   }
+/* these the buttons on the cybersecurity column are hidden in tablet view*/
+.b1, .b2, .b3{
+  display: none;
+  background-color: rgba(51, 187, 228, 0.651);
+  width:100px;
+  height: 50px;
+
+}
+/* hidden the h3 text since I am hiding the buttons on tablet view*/
+h3{
+  visibility: hidden;
+}
 
   }
 /* desktop media query */
