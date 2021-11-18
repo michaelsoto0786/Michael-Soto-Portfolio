@@ -21,4 +21,8 @@ one css which is the css animation for my moving two smaller pictures below my p
 Javascript for my three buttons on cybersecurtiy column where it would hide two pictures while showing one picture per click.
 Javascript for my form which validate if no text is input by alert message and store the values below the form since I couldnt use a php.
 
+I used two media queries one for tablet and second for desktop, you can see under css file where I put in my comments how the specifications,
+in my tablet media query, I remove all the picture but the css animation of the two pictures. I hid the cybersecurity buttons and cut the font size in half.
+I was struggling with the best practices for the min and max width for screen view but with a bit of play I use what best fit as you can see. 
+
 It has been a blast and I am eager to go the next class hopefully doing the back end development. thank you code Louisville and its mentors. 
